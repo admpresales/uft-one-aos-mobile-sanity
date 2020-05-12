@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>LAPTOPS.Tap</Name>
+    <Description />
+    <StartTime>2020-01-14 09:46:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[LAPTOPS]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[LAPTOPS]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/textViewCategory]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.TextView]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9097d3b893a64be8b1c93178325c2a86</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ac78026d-c270-4662-b52f-f90119afd84e.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>com.Advantage.aShopping:.Tap</Name>
+    <Description />
+    <StartTime>2020-01-14 09:46:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileObject</Type>
+            <Name><![CDATA[com.Advantage.aShopping:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/imageViewProduct]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.ImageView]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[4]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[ImageView]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5deb08b829904a2da539edef363abe34</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e248779d-f132-4d31-ad44-3e7f0ea6ba1a.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ADD TO CART.Tap</Name>
+    <Description />
+    <StartTime>2020-01-14 09:46:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[ADD TO CART]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ADD TO CART]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/buttonProductAddToCart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b49e16c20da149e8b957a9505c01ff0b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1ba305ef-fdb2-46e5-9f6b-29545c17d6e3.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>com.Advantage.aShopping:_2.Tap</Name>
+    <Description />
+    <StartTime>2020-01-14 09:47:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileObject</Type>
+            <Name><![CDATA[com.Advantage.aShopping:_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/imageViewBack]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.ImageView]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[ImageView]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5deb08b829904a2da539edef363abe34</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b85241a3-2286-4256-9db0-45e228907932.jpeg" highlight="20,48,64,128" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>com.Advantage.aShopping:_2.Tap</Name>
+    <Description />
+    <StartTime>2020-01-14 09:47:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileObject</Type>
+            <Name><![CDATA[com.Advantage.aShopping:_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/imageViewBack]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.ImageView]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[ImageView]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5deb08b829904a2da539edef363abe34</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b9018891-cf34-4e91-9b4d-2920479a649d.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>com.Advantage.aShopping:_3.Tap</Name>
+    <Description />
+    <StartTime>2020-01-14 09:47:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileObject</Type>
+            <Name><![CDATA[com.Advantage.aShopping:_3]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/imageViewMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.ImageView]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[ImageView]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5deb08b829904a2da539edef363abe34</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1743291a-f03c-485f-a07c-a1e9c927c29c.jpeg" highlight="0,48,104,128" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>HOME.Tap</Name>
+    <Description />
+    <StartTime>2020-01-14 09:47:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[HOME]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[HOME]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/textViewMenuHome]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.TextView]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[16]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9097d3b893a64be8b1c93178325c2a86</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\51bdc1ee-ba18-49f0-bdc6-58eb28066d0f.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>App [version {empty}]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Package Name:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;com.Advantage.aShopping&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Version:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;{empty}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-01-14 09:46:38</StartTime>
+    <Duration>62</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+        </Path>
+        <Operation> [version {empty}]</Operation>
+        <OperationData><![CDATA[<table><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Package Name:</td><td style="text-align : left; font-size : 12px; ">com.Advantage.aShopping</td></tr><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Version:</td><td style="text-align : left; font-size : 12px; ">{empty}</td></tr></table>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[instrumented]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[identifier]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5c9ae4992b514361ad290931c8d31302</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Device [asus Nexus 7]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;ID: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;0a5cfd7f&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Manufacturer: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;asus&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Model: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Nexus 7&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Type: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;ANDROID&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Version: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;6.0.1&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Source: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;MC&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-01-14 09:46:38</StartTime>
+    <Duration>62</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <Operation> [asus Nexus 7]</Operation>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">ID: </span><span style="text-align : left; font-size : 12px; ">0a5cfd7f</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Manufacturer: </span><span style="text-align : left; font-size : 12px; ">asus</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Model: </span><span style="text-align : left; font-size : 12px; ">Nexus 7</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Type: </span><span style="text-align : left; font-size : 12px; ">ANDROID</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Version: </span><span style="text-align : left; font-size : 12px; ">6.0.1</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Source: </span><span style="text-align : left; font-size : 12px; ">MC</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>be65541ff9fd483094462614010fdd4f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-01-14 09:46:32</StartTime>
+    <Duration>68</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>5992b35a01424974a930e680b82b614e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-01-14 09:46:32</StartTime>
+    <Duration>68</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>68f166dc3d2644dbab3be861295bc00d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AOS_UFT_MOBILE_Sanity</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>15.0</ToolVersion>
+    <ToolVersionStringLiteral>15.0</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-01-14 09:46:31</StartTime>
+    <Duration>69</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>ad070fef3e9d42a0888a1d86998c71a5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-07:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2016</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2020-01-14 09:46:31</RunStartTime>
+    <Timezone>-07:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>15.0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

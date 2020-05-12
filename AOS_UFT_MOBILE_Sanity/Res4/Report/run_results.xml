@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<Data>
+    <Name>App [version {empty}]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Package Name:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;com.Advantage.aShopping&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Version:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;{empty}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-02-05 12:21:54</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+        </Path>
+        <Operation> [version {empty}]</Operation>
+        <OperationData><![CDATA[<table><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Package Name:</td><td style="text-align : left; font-size : 12px; ">com.Advantage.aShopping</td></tr><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Version:</td><td style="text-align : left; font-size : 12px; ">{empty}</td></tr></table>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[instrumented]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[identifier]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f4a2fd1c7947481e8fea15af1696fba2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Device</Name>
+    <Description>Device</Description>
+    <StartTime>2020-02-05 12:21:54</StartTime>
+    <Duration>1</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Device]]></OperationData>
+      </TestObject>
+      <IconKey>7d65f67c4b174b5b815e6c78eb87c6be</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>LAPTOPS.Tap</Name>
+    <ErrorText>The application is not installed on the device or it was not properly prepared for testing. [error 1103]</ErrorText>
+    <Description>The&amp;nbsp;application&amp;nbsp;is&amp;nbsp;not&amp;nbsp;installed&amp;nbsp;on&amp;nbsp;the&amp;nbsp;device&amp;nbsp;or&amp;nbsp;it&amp;nbsp;was&amp;nbsp;not&amp;nbsp;properly&amp;nbsp;prepared&amp;nbsp;for&amp;nbsp;testing.&amp;nbsp;[error&amp;nbsp;1103]&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Text = LAPTOPS&lt;br&gt;resourceid = com.Advantage.aShopping:id/textViewCategory&lt;br&gt;Native Class = android.widget.TextView&lt;br&gt;Mercury Class = MobileLabel&lt;br&gt;mcindex = 1&lt;br&gt;DHTML Class = Label&lt;br&gt;</Description>
+    <StartTime>2020-02-05 12:21:54</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Device("Device").App("App").MobileLabel("LAPTOPS").Tap]]></Scripts>
+          <LineNo><![CDATA[4]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[App]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[LAPTOPS]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[LAPTOPS]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[resourceid]]></Name>
+            <Value><![CDATA[com.Advantage.aShopping:id/textViewCategory]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[android.widget.TextView]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b01759f99aaf4f09b706a42985dbd6f9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5b4a761f-8557-416e-8d3f-4981508875da.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-02-05 12:25:00</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>284ab7a756dd44ac904f5debbc6af2c8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ad2e2ca4-27ae-44aa-80c5-1c39e7c324b1.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Device</Name>
+    <Description>Device</Description>
+    <StartTime>2020-02-05 12:21:55</StartTime>
+    <Duration>185</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Device]]></OperationData>
+      </TestObject>
+      <IconKey>7d65f67c4b174b5b815e6c78eb87c6be</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-02-05 12:21:52</StartTime>
+    <Duration>188</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>ea9ec8c3046f4591aded35275430ad7e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-02-05 12:21:52</StartTime>
+    <Duration>188</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>e7423bb0ae46448382a22750a3a9a70e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AOS_UFT_MOBILE_Sanity</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>15.0</ToolVersion>
+    <ToolVersionStringLiteral>15.0</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-02-05 12:21:51</StartTime>
+    <Duration>189</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <ParallelRunnerEnvInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ID>0a9e0bfe</ID>
+        <Manufacturer>asus</Manufacturer>
+        <Model>Nexus 7</Model>
+        <OsType>ANDROID</OsType>
+        <OsVersion>6.0.1</OsVersion>
+        <DesktopBrowser />
+        <ErrorMessage />
+      </ParallelRunnerEnvInfo>
+      <IconKey>67cbc0b1c54e413396b6366e5c771b51</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-07:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>12287</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2016</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+      <Link type="CountersMonitorResults" reference="CountersMonitorResults.txt" displayname="System Monitor" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2020-02-05 12:21:51</RunStartTime>
+    <Timezone>-07:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>15.0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
